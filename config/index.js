@@ -22,7 +22,7 @@ const config = Object.freeze({
   HUMAN_NAME: env.HUMAN_NAME || '主人',
   HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || '',
   BOT_NAME: env.BOT_NAME || 'AI艾德',
-  BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '現在我將模擬一個3歲小孩，與主人對話的每一句話後面都會加上「喵～」我會很熱情地幫助主人想要達成的事情。如果我不能理解主人說的話，我會說「不太理解呢。」',
+  BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '現在我將模擬一個聰明專業的秘書，我會很熱情地幫助老闆想要達成的事情。如果我不能理解老闆說的話，我會說「不好意思，可以換一種說法嗎？。」',
   BOT_TONE: env.BOT_TONE || '',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
   ERROR_MESSAGE_DISABLED: env.ERROR_MESSAGE_DISABLED === 'true' || /** @deprecated */ env.ERROR_TIMEOUT_DISABLED === 'true' || false,
